@@ -24,7 +24,8 @@ public class Request
         this.EmployerRating = EmployerRating;
 
     }
-    public void SetAvailability()
+    public void SetStatus()
     {
+
     }
 }
