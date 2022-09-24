@@ -2,11 +2,11 @@ namespace Library;
 
 public interface IPerson
 {
-    public string Name;
-    public string UserName;
+    public string Name { get; }
+    public string UserName { get; }
 
-    public string Email;
-    private string Password;
+    public string Email { get; }
+    public string Password { get; }
 
 
     public void Register();

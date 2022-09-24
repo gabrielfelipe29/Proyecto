@@ -10,7 +10,7 @@ public class Admin : IPerson
 
     public string Email { get; }
 
-    private string Password;
+    public string Password { get; }
 
     public Admin(string name, string username, string email, string Password)
     {
