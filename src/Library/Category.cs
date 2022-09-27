@@ -14,6 +14,7 @@ namespace Library
             this.Name = name;
         }
         public void AddService(Service service)
+        //El metodo AddService que recibe un parametro de tipo service va a agregar a la lista de servicios un servicio.
         {
             ServiceList.Add(service);
         }
