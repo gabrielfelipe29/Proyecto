@@ -7,15 +7,15 @@ namespace Library
 {
     public class Category
     {
-        public string Name{get; set;}
-        public List<Service> ServiceList{get;set;}
+        public string Name { get; set; }
+        public List<Service> ServiceList { get; set; }
         public Category(string name)
         {
-            this.Name=name;
+            this.Name = name;
         }
         public void AddService(Service service)
-            {
-                ServiceList.Add(service);
-            }
+        {
+            ServiceList.Add(service);
+        }
     }
 }
