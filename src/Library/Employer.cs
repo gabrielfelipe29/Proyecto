@@ -1,12 +1,7 @@
 using System;
-<<<<<<< HEAD
-namespace Library;
-public class Employer: IPerson
-=======
 using System.Collections.Generic;
 namespace Library;
 public class Employer : IPerson
->>>>>>> d223b0dc22e5f814ea85be100c1b58a45a4250af
 {
     public string Name { get; set; }
     public string UserName { get; set; }
