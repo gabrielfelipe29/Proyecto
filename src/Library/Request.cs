@@ -1,5 +1,4 @@
-namespace Library;
-
+namespace Library{
 
 public class Request
 {
@@ -24,8 +23,13 @@ public class Request
         this.EmployerRating = EmployerRating;
 
     }
+    /// <summary>
+    /// Definir el estado de la Request, si esta activa o no.
+    /// </summary>
     public void SetStatus()
     {
 
     }
 }
+}
+

@@ -1,5 +1,5 @@
 using System;
-namespace ClassLibrary;
+namespace Library;
 public class Employer: IPerson
 {
     public string Name { get; set; }
