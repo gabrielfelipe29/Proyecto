@@ -19,7 +19,7 @@ public class Location
     public double Latitude { get; set; }
     public double Longitude  { get; set; }
 
-    public void CalculateDistance()
+    public void CalculateDistance() //Este método calcula la distancia entre el Employer y el Employee.
     {
 
     }
