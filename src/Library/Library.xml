@@ -4,6 +4,11 @@
         <name>Library</name>
     </assembly>
     <members>
+        <member name="M:Library.Request.SetStatus">
+            <summary>
+            Definir el estado de la Request, si esta activa o no.
+            </summary>
+        </member>
         <member name="T:ClassLibrary.Train">
             <summary>
             Esta clase representa un tren muy básico.

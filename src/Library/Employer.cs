@@ -11,6 +11,16 @@ public class Employer : IPerson
     public Location Location { get; set; }
     public List<Request> RequestList { get; set; }
 
+    public Employer(string name,string Username, string Email, string Password, int PhoneNumber, Location Location )
+    { 
+        this.Name= name;
+        this.UserName=Username;
+        this.Email=Email;
+        this.Password= Password;
+        this.PhoneNumber=PhoneNumber;
+        this.Location=Location; 
+    }
+
     public void Register()
     {
 
