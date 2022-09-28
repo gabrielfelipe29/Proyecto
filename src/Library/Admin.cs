@@ -44,6 +44,6 @@ public class Admin : IPerson
     {
         // método para que el administrador pueda tener acceso a los servicios
         // se retorna un servicio generico para que no tire un error
-        return new Service("", new Employee(), 0.0, true);
+        return new Service("", new Employee("", "", ",", "", 0, new Location("", 0, 0, 0)), 0.0, true);
     }
 }

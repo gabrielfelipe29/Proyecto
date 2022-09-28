@@ -31,7 +31,7 @@ public class Employer : IPerson
     }
     public Service GetService()
     {
-        return new Service("", new Employee(), 0.0, true);
+        return new Service("", new Employee("", "", ",", "", 0, new Location("", 0, 0, 0)), 0.0, true);
     }
     public double GetRatingAverage()
     {
