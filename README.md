@@ -41,3 +41,6 @@ Comentar las siguientes líneas en los archivos de proyecto (`*.csproj`)
 ## StyleCop Analyzer
 
 Comentar la línea `<PackageReference Include="StyleCop.Analyzers" Version="1.1.118"/>` en los archivos de proyecto (`*.csproj`)
+
+
+Sebastian Martinez
